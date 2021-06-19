@@ -26,7 +26,7 @@ nav {
 }
 
 .logo {
-  width: 16.25rem;
+  width: 7.25rem;
 }
 
 /*----- MENU LINKS --------*/
@@ -38,6 +38,7 @@ nav a.nav-link {
 
 nav ul li {
   text-transform: uppercase;
+  
 }
 
 .navbar-nav > li > a {
@@ -45,6 +46,7 @@ nav ul li {
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
+  font-size: 1rem;
 }
 
 .navbar-brand {
@@ -52,6 +54,11 @@ nav ul li {
   padding: 0 !important;
   height: 6rem !important;
 }
+
+#navbarSupportedContent{
+  margin-left: 7rem;
+}
+
 
 @media(max-width: 768px) {
  .navbar-brand {

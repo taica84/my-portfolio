@@ -1,9 +1,11 @@
 import React from "react";
-import logo from "../logo2.png";
+import logo from "../logo3.png";
 import { Link } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+
 
 const Navbar = () => {
   return (
